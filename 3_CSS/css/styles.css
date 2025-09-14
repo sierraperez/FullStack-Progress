@@ -1,4 +1,6 @@
-
+body {
+  padding-bottom: 500px;
+}
 h3{
     font-family: Arial, Helvetica, sans-serif;
     color: #20707f;
@@ -79,4 +81,15 @@ border-bottom: 3px solid #74ad03;
     background-position: center;
     background-size: cover;
     
+}
+/* height and weight */
+.height-weight{
+    height: 300px;
+    background-color: cadetblue;
+  
+}
+.height-weight-2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
 }
