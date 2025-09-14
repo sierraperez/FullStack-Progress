@@ -25,3 +25,38 @@ border-bottom: 3px solid #74ad03;
 #some-tittle{
     border-bottom: 3px solid gold;
 }
+/* 11-Name colors */
+.color-name{
+    color: tomato;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/* 12-Hexadecimal colors */
+.hex-color{
+    color: #a56d45;
+    background-color: #0f3460;
+    padding: 10px;
+}
+/* 13-RGBa colors */
+.rgba-color{
+    color: rgb(82, 34, 34);
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+/* 14-background colors */
+.background-color{
+    background-color: rgb(179, 179, 179);
+    padding: 10px;
+}
+/* 15-background opacity */
+.bg-opacity{
+    background-color: #74ad03;
+    opacity: 0.3;
+    padding: 10px;
+}
+/* 16-Rgba opacity */
+.rgba-opacity{
+    background-color: rgba(123, 161, 45, 0.1);
+    padding: 10px;
+}
