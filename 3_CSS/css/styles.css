@@ -60,3 +60,23 @@ border-bottom: 3px solid #74ad03;
     background-color: rgba(123, 161, 45, 0.1);
     padding: 10px;
 }
+/* 17-background image */
+.bg-image{
+   background-image: url('/3_CSS/img/code-execute-sur-des-ecrans-d-ordinateur-et-de-tablette-dans-un-centre-de-donnees-vide.jpg');
+   padding: 10px;
+   color: #fff;
+}
+/*18 Center background image*/
+.not-centered-bg,
+.center-bg{
+    height: 400px;
+    width: 400px;
+    background-image: url('/3_CSS/img/code-execute-sur-des-ecrans-d-ordinateur-et-de-tablette-dans-un-centre-de-donnees-vide.jpg');
+
+}
+
+.center-bg{
+    background-position: center;
+    background-size: cover;
+    
+}
