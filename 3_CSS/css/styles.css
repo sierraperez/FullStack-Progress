@@ -3,9 +3,25 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     color: #20707f;
 }
-/* 9-Classes*/
+/* 8-Classes*/
 .paragraph{
     background-color: rgb(36, 29, 29);
     color:brown;
     padding: 10px;
+}
+/* 9-ID*/
+#exclusive-tittle{
+    color: rgb(242, 255, 4);
+    padding: 10px;
+    background-color: black;
+}
+/*10 Multi rules,order CSS*/
+h2{
+    border-bottom: #20707f solid 3px;
+}
+.title{
+border-bottom: 3px solid #74ad03;
+}
+#some-tittle{
+    border-bottom: 3px solid gold;
 }
