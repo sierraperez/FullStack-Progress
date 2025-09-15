@@ -162,3 +162,14 @@ h2 {
   box-sizing: border-box;
   outline: 2px solid #ad4f03;
 }
+
+/* 25 Text decoration*/
+.underline {
+  text-decoration: underline;
+}
+.line-trough {
+  text-decoration: line-through;
+}
+.remove-underline {
+  text-decoration: none;
+}
