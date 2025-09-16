@@ -207,3 +207,8 @@ h2 {
   font-family: 'Impact', fantasy;
   color: black;
 }
+/* 29 font weight*/
+.font-weight {
+  font-weight: bold;
+  color: black;
+}
