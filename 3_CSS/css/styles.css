@@ -180,3 +180,7 @@ h2 {
 .lower {
   text-transform: lowercase;
 }
+/* 27 letter spacing*/
+.letter-spacing {
+  letter-spacing: 10px;
+}
