@@ -173,3 +173,10 @@ h2 {
 .remove-underline {
   text-decoration: none;
 }
+/* 26 Text transform*/
+.upper {
+  text-transform: uppercase;
+}
+.lower {
+  text-transform: lowercase;
+}
