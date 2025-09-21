@@ -29,8 +29,13 @@ input {
 input [type="text"],
 input [type="number"],
 input [type="date"],
-input [type="file"]{
+input [type="file"],
+textarea{
     width: 400px;
+}
+textarea{
+  padding: 10px 5px ;
+
 }
 /* Page header */
 .header{
@@ -41,4 +46,13 @@ input [type="file"]{
 .header h3{
     color: #ccc;
     margin-top: 0;
+}
+/* form cantainer */
+.form-container{
+    background-color:#efe4e4;
+    width: 60%;
+    margin: 0 auto; /*Center the container with margin  0 auto */
+    position: relative;
+    top: -80px ;
+    
 }
