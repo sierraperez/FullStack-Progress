@@ -1,0 +1,44 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #dbd7d7;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+}
+
+p,
+label {
+  color: #444;
+}
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0px;
+}
+
+input [type="text"],
+input [type="number"],
+input [type="date"],
+input [type="file"]{
+    width: 400px;
+}
+/* Page header */
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #c06d6d;
+}
+.header h3{
+    color: #ccc;
+    margin-top: 0;
+}
