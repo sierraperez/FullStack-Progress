@@ -52,6 +52,39 @@
           <option value="python">Python</option>
         </select>
       </div>
+      <!-- 8 Element textarea -->
+      <div>
+        <label for="textarea">Extra info</label>
+        <textarea name="textarea" id=""></textarea>
+      </div>
+      <!--  9 Fieldset and legend -->
+      <div>
+        <fieldset>
+          <legend>Your informations </legend>
+          <label for="firstname">Name</label>
+          <input type="text" name="firstname" />
+          <label for="lastname">Last Name</label>
+          <input type="text" name="lastname" />
+        </fieldset>
+      </div>
+      <!--  10 Datalist -->
+      <div>
+        <label for="city"> Choice your city :</label>
+        <input type="text" name="city" list="cities" />
+        <datalist id="cities">
+          <option value="New York"></option>
+          <option value="Madrid"></option>
+          <option value="Mexico City"></option>
+          <option value="Buenos Aires"></option>
+          <option value="Paris"></option>
+        </datalist>
+      </div>
+      <!-- 11 password -->
+       <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" />
+       </div>
+
 
       <!-- 5 - Send form -->
       <input type="submit" value="Send" />
