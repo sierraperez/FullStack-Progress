@@ -9,12 +9,12 @@ p {
 h2 {
   font-size: 35px;
 }
-.flag-container{
-    position: sticky;
-    top: 10px;
+.flag-container {
+  position: sticky;
+  top: 10px;
 }
 .flag {
-    width: 100px;
+  width: 100px;
 }
 
 .container {
