@@ -31,13 +31,27 @@
         </select>
       </div>
       <!-- 7 Attribute selected -->
-       <div>
+      <div>
         <label for="contract">Contract terms</label>
         <select name="contract">
           <option value="fulltime" selected>Full-time</option>
+          <!-- 7 Attribute selected (Select) -->
           <option value="parttime">Part-time</option>
           <option value="freelance">Freelance</option>
-       </div>
+        </select>
+      </div>
+      <!--Multi options -->
+      <div>
+        <label for="skills">Select your skills</label>
+        <select name="skills" multiple>
+          <!--Multi options (Multiple)   -->
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="js">JavaScript</option>
+          <option value="php">PHP</option>
+          <option value="python">Python</option>
+        </select>
+      </div>
 
       <!-- 5 - Send form -->
       <input type="submit" value="Send" />
