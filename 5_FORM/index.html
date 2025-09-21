@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
-    <link rel="stylesheet" href="/5_FORM/CSS/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/5_FORM/CSS/styles.css" />
+  </head>
+  <body>
     <h1>HTML Forms</h1>
-</body>
+    <!-- 1 First form -->
+    <!-- 2 Form attributes -->
+    <form action="/register.php" method="POST">
+      <div>
+        <label for="name"></label>
+        <input type="text" name="name" placeholder="Name" />
+      </div>
+      <!-- 3 attribute name -->
+      <div>
+        <!--  4 attribute label -->
+        <label for="Age"></label>
+        <input type="text" name="age" placeholder="Age" />
+      </div>
+      <!-- 6 - Element select -->
+      <div>
+        <label for="job">Select your job</label>
+        <select name="job">
+          <option value="frontend">Front-end</option>
+          <option value="backend">Back-end</option>
+          <option value="fullstack">Full-stack</option>
+        </select>
+      </div>
+      <!-- 7 Attribute selected -->
+       <div>
+        <label for="contract">Contract terms</label>
+        <select name="contract">
+          <option value="fulltime" selected>Full-time</option>
+          <option value="parttime">Part-time</option>
+          <option value="freelance">Freelance</option>
+       </div>
+
+      <!-- 5 - Send form -->
+      <input type="submit" value="Send" />
+    </form>
+  </body>
 </html>
