@@ -86,7 +86,7 @@
       </div>
       <!--  12  Radio button  -->
       <div>
-        <label for="laguages"> Choice your favorite languages :</label>
+        <label for="languages">Choice your favorite languages :</label>
         <div class="radio">
           <input type="radio" name="languages" value="html" />
           <label for="html">HTML</label>
@@ -94,51 +94,62 @@
         <div class="radio">
           <input type="radio" name="languages" value="css" />
           <label for="css">CSS</label>
-        <div>
+        </div>
+        <div class="radio">
           <input type="radio" name="languages" value="js" />
           <label for="js">JavaScript</label>
         </div>
-
         <div class="radio">
           <input type="radio" name="languages" value="php" />
           <label for="php">PHP</label>
+        </div>
       </div>
+
       <!-- 13 Checkbox -->
-       <div>
+      <div>
         <label for="optionals">For more news</label>
         <div class="radio">
           <input type="checkbox" name="optionals[]" value="yes" />
           <label for="newsletter">Suscribe to newsletter</label>
-
         </div>
 
-           <input type="text" name="" id="">
+        <input type="text" name="" id="" />
+      </div>
+      <!-- Input date -->
+      <div>
+        <label for="birthday">Dirthday date</label>
+        <input type="date" name="birthday" />
+      </div>
+      <!-- Send files by forms -->
+      <div>
+        <label for="image">Send your image</label>
+        <input type="file" name="image" />
+      </div>
+      <!-- Input numbers -->
+      <div>
+        <label for="numbers">Your phone number :</label>
+        <input type="number" name="numbers" />
+      </div>
+      <!-- Email input-->
+      <div>
+        <label for="email">Your email</label>
+        <input type="email" name="email" />
+      </div>
+      <!-- Attribute value -->
+      <div>
+        <label for="value">Some value</label>
+        <input type="value" name="value" value="12345" />
+      </div>
+      <!-- Attribute desabled -->
+      <div>
+        <p>Try to change the input</p>
+        <input type="text" disabled />
+      </div>
+      <!-- Attribute required -->
+       <div>
+        <label for="boolean">Some info</label>
+        <input type="text" name="boolean" required />
        </div>
-       <!-- Input date -->
-        <div>
-          <label for="birthday">Dirthday date</label>
-          <input type="date" name="birthday" />
-        </div>
-        <!-- Send files by forms -->
-         <div>
-          <label for="image">Send your image</label>
-          <input type="file" name="image" />
-         </div>
-         <!-- Input numbers -->
-          <div>
-            <label for="numbers">Your phone number :</label>
-            <input type="number" name="numbers" />
-          </div>
-        <!-- Email input-->
-         <div>
-          <label for="email">Your email</label>
-          <input type="email" name="email" />
-         </div>
-         <!-- Attribute value -->
-          <div>
-            <label for="value">Some value</label>
-            <input type="value" name="value" value="12345" />
-          </div>
       <!-- Btn Reset -->
       <input type="reset" value="Reset" />
       <!-- 5 - Send form -->
