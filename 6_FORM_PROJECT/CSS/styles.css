@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333;
+  color: #655b5b;
 }
 
 p,
@@ -23,36 +23,94 @@ label {
 input {
   border: none;
   border-bottom: 1px solid #ccc;
-  padding: 10px 0px;
+  padding: 15px 0px;
+  background-color: #efe4e4;
+  outline: none;
 }
+
 
 input [type="text"],
 input [type="number"],
 input [type="date"],
 input [type="file"],
-textarea{
-    width: 400px;
+textarea {
+  width: 400px;
 }
-textarea{
-  padding: 10px 5px ;
-
+textarea {
+  padding: 10px 5px;
 }
 /* Page header */
-.header{
-    height: 160px;
-    padding: 20px;
-    background-color: #c06d6d;
+.header {
+  height: 160px;
+  padding: 20px;
+  background-color: #c06d6d;
 }
-.header h3{
-    color: #ccc;
-    margin-top: 0;
+.header h3 {
+  color: #ccc;
+  margin-top: 0;
 }
 /* form cantainer */
-.form-container{
-    background-color:#efe4e4;
-    width: 60%;
-    margin: 0 auto; /*Center the container with margin  0 auto */
-    position: relative;
-    top: -80px ;
-    
+.form-container {
+  background-color: #efe4e4;
+  width: 60%;
+  margin: 0 auto; /*Center the container with margin  0 auto */
+  position: relative;
+  top: -80px;
+}
+/* form header */
+.form-header {
+  border-bottom: 1px solid #c06d6d;
+}
+.form-header p {
+  color: #444;
+  border-bottom: 2px solid #ff0000;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  height: 45px;
+  line-height: 45px;
+}
+/* form body */
+.form-body {
+  padding: 30px;
+}
+.form-body title {
+  margin-bottom: 20px;
+}
+.required-field {
+  color: red;
+}
+.box-input {
+  margin-bottom: 35px;
+}
+
+.block {
+  display: block;
+}
+
+.optional-box {
+  display: inline-block;
+  margin: 0 30px 30px 0;
+}
+.optional-list li {
+  list-style: none;
+}
+.box-input {
+  margin-top: 20px;
+}
+.btn-submit {
+  background-color: #c06d6d;
+  color: black;
+  border: 2px solid transparent;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.btn-submit:hover {
+  border: 3px #c06d6d;
+  background-color: black;
+  color: #c06d6d;
 }
